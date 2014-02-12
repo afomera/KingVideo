@@ -45,3 +45,5 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem "bootstrap-sass", "~> 3.1.0.2"
+
+gem 'devise'
