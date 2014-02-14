@@ -5,6 +5,7 @@ KingVideo::Application.routes.draw do
   get "contact" => "pages#contact"
   get "about" => "pages#about"
   get "watch" => "pages#watch"
+  get 'change_log' => 'pages#change_log'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
