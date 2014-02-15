@@ -1,4 +1,5 @@
 KingVideo::Application.routes.draw do
+
   devise_for :users
   root 'pages#home'
 
@@ -10,4 +11,8 @@ KingVideo::Application.routes.draw do
   get "watch" => "pages#watch"
   get 'change_log' => 'pages#change_log'
   get 'roadmap' => 'pages#roadmap'
+	
+  get 'terms' => 'pages#terms'  
+  get 'terms/aup' => "terms#aup"
+  get 'terms/privacy' => 'terms#privacy'
 end
