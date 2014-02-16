@@ -13,6 +13,6 @@ KingVideo::Application.routes.draw do
   get 'roadmap' => 'pages#roadmap'
 	
   get 'terms' => 'pages#terms'  
-  get 'terms/aup' => "terms#aup"
-  get 'terms/privacy' => 'terms#privacy'
+  get 'aup' => 'terms#aup'
+  get 'privacy' => 'terms#privacy'
 end
