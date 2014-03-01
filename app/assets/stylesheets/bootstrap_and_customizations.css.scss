@@ -2,15 +2,17 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 $body-bg: #ecf0f1;
 $font-family-sans-serif:               'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$navbar-inverse-bg: #669900; //green: 669900//#2c3e50 -- the blue: 3498db
-$navbar-height: 65px;
-$navbar-inverse-link-color: white;
-$brand-primary: #669900; //#c0392b
 $jumbotron-bg: white;
 $well-bg: white;
 
+//Navbar Setup
+$navbar-inverse-bg: #669900; //green: 669900
+$navbar-height: 65px;
+$navbar-inverse-link-color: white;
 
-$brand-success: #8e44ad;
+
+$brand-primary: #669900; //#c0392b
+$brand-success: #8e44ad; //Nice Purple Color, used atm for sucessvar
 
 @import 'bootstrap';
 
